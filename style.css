@@ -1,0 +1,58 @@
+html,body{
+    height:100%;
+    width: 100%;
+}
+body{
+    /* background-image: url(bblack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-image: url("bblack.jpg");
+
+  
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+    width: 60px;
+    height: 59px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:20px ;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px  whitesmoke;
+    /* margin: 3px; */
+
+}
+.row {
+    margin: 8px 0;
+}
+.row input{
+    background-color: rgb(119, 118, 118);
+    margin: 0;
+    margin-top: 20px;
+    padding: 10px 10px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    font-size: 23px;
+    width: 240px;
+}
+.container{
+    width: 330px;
+    height: 480px;
+    border: linen;
+    background-color: rgb(104, 99, 99);
+    /* border-radius: 10% / 50%; */
+    border-radius: 15px 50px;
+    margin: 200px;
+ /* align-self: baseline; */
+}

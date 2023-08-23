@@ -1,0 +1,26 @@
+.text-centre{
+    text-align: center;
+color: khaki;
+    text-shadow: 2px 2px black;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    height:500px;
+
+}
+.mx-auto{
+    margin:auto
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-centre{
+    align-items: center;
+}
